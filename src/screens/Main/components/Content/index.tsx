@@ -157,7 +157,7 @@ export default function Content({ index, aditionals, setIndex }: Props) {
         />
       </S.ImageContent>
       <S.Price>
-        $
+        R$
         <CountUp
           key={`${price}`}
           start={price < previowsPrice ? price : previowsPrice}
@@ -169,13 +169,13 @@ export default function Content({ index, aditionals, setIndex }: Props) {
       </S.Price>
       <S.Options>
         <S.OptionsButtonText onPress={() => setSize("s")}>
-          <S.OptionsText isSelected={size === "s"}>S</S.OptionsText>
+          <S.OptionsText isSelected={size === "s"}>P</S.OptionsText>
         </S.OptionsButtonText>
         <S.OptionsButtonText onPress={() => setSize("m")}>
           <S.OptionsText isSelected={size === "m"}>M</S.OptionsText>
         </S.OptionsButtonText>
         <S.OptionsButtonText onPress={() => setSize("l")}>
-          <S.OptionsText isSelected={size === "l"}>L</S.OptionsText>
+          <S.OptionsText isSelected={size === "l"}>G</S.OptionsText>
         </S.OptionsButtonText>
         <S.OptionsSlider style={sliderAnimatedStyle} />
       </S.Options>

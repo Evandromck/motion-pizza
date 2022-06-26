@@ -2,7 +2,7 @@ import Animated from "react-native-reanimated";
 import styled from "styled-components/native";
 
 export const Header = styled.View`
-  width: 100%;
+  width: 160%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
