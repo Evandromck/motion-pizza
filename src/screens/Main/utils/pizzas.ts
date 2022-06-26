@@ -14,26 +14,32 @@ interface PizzaProps {
 export const pizzas: Array<PizzaProps> = [
   {
     name: "Pizza",
-    desc: "Pick your favourite",
+    desc: "Escolha o seu favorito",
     prices: { s: 0, m: 0, l: 0 },
     pic: require("../../../assets/empty.png"),
   },
   {
-    name: "Italian",
-    desc: "tomato sauce & mozzarella",
-    prices: { s: 5.5, m: 7.5, l: 9.5 },
+    name: "Italiana",
+    desc: "Tomate seco e mozzarella",
+    prices: { s: 28.5, m: 35.5, l: 59.5 },
     pic: require("../../../assets/itallian-pizza.png"),
   },
   {
-    name: "Veggie",
-    desc: "fresh veggies & cheese",
-    prices: { s: 6, m: 8, l: 10 },
+    name: "Vegetariana",
+    desc: "legumes frescos e queijo",
+    prices: { s: 25.6, m: 28.50, l: 45.60 },
     pic: require("../../../assets/veggie-pizza.png"),
   },
   {
-    name: "Greek",
-    desc: "spicy pizza with mozzarella",
-    prices: { s: 7.5, m: 9.5, l: 11.5 },
+    name: "Grega",
+    desc: "pizza picante com mussarela",
+    prices: { s: 27.5, m: 32.5, l: 72.5 },
     pic: require("../../../assets/greek-pizza.png"),
+  },
+  {
+    name: "Calabresa",
+    desc: "pizza calabresa com catupiry",
+    prices: { s: 27.5, m: 32.5, l: 72.5 },
+    pic: require("../../../assets/calabresa-catupiry.png"),
   },
 ];
